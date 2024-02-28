@@ -1,0 +1,30 @@
+/* Always give a very basic css to remove the default styling */
+
+html{
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before{
+    box-sizing: inherit;
+}
+
+html,
+body{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+.disabled{
+    cursor: not-allowed;
+}
+

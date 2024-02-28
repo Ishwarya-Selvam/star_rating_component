@@ -1,0 +1,27 @@
+/* give a simple styling
+use as much as flex as possible */
+
+
+.container{
+    border:4px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.star_container{
+    display: flex;
+    gap: 1rem;
+    border: 3px solid black;
+    padding: 5px;
+}
+
+.star{
+    font-size: 2rem;
+}
+
+.yellow{
+    color: goldenrod;
+}
